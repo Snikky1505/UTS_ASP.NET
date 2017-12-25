@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Gambar/AdRotator/Book1.jpg</ImageUrl>
+    <NavigateUrl>http://thegreatsamuelnikko.blogspot.co.id</NavigateUrl>
+    <Impressions>10</Impressions>
+    <AlternateText>Book</AlternateText>
+    <KeyWord>Snikky's Book</KeyWord>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Gambar/AdRotator/Book2.jpg</ImageUrl>
+    <NavigateUrl>http://thegreatsamuelnikko.blogspot.co.id</NavigateUrl>
+    <Impressions>15</Impressions>
+    <AlternateText>Books</AlternateText>
+    <KeyWord>Snikky's Book</KeyWord>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Gambar/AdRotator/Book3.jpg</ImageUrl>
+    <NavigateUrl>http://thegreatsamuelnikko.blogspot.co.id</NavigateUrl>
+    <Impressions>30</Impressions>
+    <AlternateText>Book</AlternateText>
+    <KeyWord>Snikky's Book</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Gambar/AdRotator/Book4.jpg</ImageUrl>
+    <NavigateUrl>http://thegreatsamuelnikko.blogspot.co.id</NavigateUrl>
+    <Impressions>30</Impressions>
+    <AlternateText>Books</AlternateText>
+    <KeyWord>Snikky's Book</KeyWord>
+  </Ad>
+</Advertisements>

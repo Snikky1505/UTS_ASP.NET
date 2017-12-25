@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<html lang="en">
+    <head runat="server">
+        <title>1512501170 - Nikko Handiarto</title>
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+        <link rel="stylesheet" href="~/Assets/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css"/>
+        <link href="~/Assets/css/business-casual.css" rel="stylesheet">
+    </head>
+    <body class="content">
+        <!--style="background-image:url(Gambar/LOU.jpg)"-->
+        <form runat="server">
+        <asp:ContentPlaceHolder ID="header2" runat="server"></asp:ContentPlaceHolder>
+            <span class="text-center text-heading text-shadow" style="color:#fff;">
+                <div class="tagline-upper" style="padding-top:100px;letter-spacing:5px;font-size:4em">Snikky's</div>
+                <div class="tagline-lower text-uppercase" style="letter-spacing:2px;font-family: 'Open Sans', Helvetica, Arial, sans-serif;font-size:1.10em;margin-bottom:50px"><span style="color: rgb(102, 102, 102); font-family: arial, sans-serif; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">‎</span>15324 Graha Raya | Bintaro Jaya, Tangerang Selatan | 081298050217</div>
+            </span>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+                <div class="container" style="height:inherit;text-align:center !important;">
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item px-lg-4">
+                                <asp:LinkButton ID="lbtnHome"  runat="server" PostBackUrl="~/Default.aspx" Cssclass="nav-link text-uppercase text-expanded">HOME</asp:LinkButton>
+                                <span class="sr-only">(current)</span>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <asp:LinkButton ID="lbtnEntryBuku" runat="server" Cssclass="nav-link text-uppercase text-expanded" PostBackUrl="~/Konteks/MasterBuku.aspx">Data Master</asp:LinkButton>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <asp:LinkButton ID="lbtnEntryJenis" runat="server" Cssclass="nav-link text-uppercase text-expanded" PostBackUrl="~/Konteks/JenisBuku.aspx">Data Buku</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </div>
+              </div>
+            </nav>
+            <asp:ContentPlaceHolder ID="contentutama" runat="server"></asp:ContentPlaceHolder>
+        </form>
+        <div id="footer" class="bg-faded py-4" style="color:#595959">
+            <p class="m-0">Copyright &copy; 2017 - Snikky. All Right Reserved.</p>
+        </div>
+        <script type="text/javascript" src="<%=ResolveUrl("~/Assets/js/bootstrap.min.js")%>"></script>
+        <script type="text/javascript" src="<%=ResolveUrl("~/Assets/js/jquery.min.js") %>"></script>
+    </body>
+</html>

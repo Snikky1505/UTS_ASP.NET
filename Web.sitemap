@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Halaman Utama">
+        <siteMapNode url="~/Konteks/JenisBuku.aspx" title="Jenis"  description="" />
+        <siteMapNode url="~/Konteks/MasterBuku.aspx" title="Buku"  description="" />
+    </siteMapNode>
+</siteMap>
